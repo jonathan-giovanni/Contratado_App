@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:foreground="@drawable/gradient_login"
+        android:src="@drawable/handshake_background"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/title_font"
+        android:textSize="36dp"
+        android:text="CONTRATADO"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imgAnim"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_below="@+id/lblTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_search_large"
+        android:tint="@android:color/white" />
+
+
+    <ViewFlipper
+
+        android:id="@+id/loginViewFlipper"
+        android:flipInterval="3000"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        android:layout_below="@id/imgAnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/primaryTextColor"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:text="Search a professional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/primaryTextColor"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:text="Make a deal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/primaryTextColor"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:text="Pay for work"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </ViewFlipper>
+
+</RelativeLayout>

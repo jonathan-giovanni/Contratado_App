@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnPruebas"
+        android:text="Pruebas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+        android:background="@color/primaryColor"
+        app:itemIconTint="@color/bottom_state_color"
+        app:itemTextColor="@color/bottom_state_color"
+
+        app:menu="@menu/menu_bottom"
+        android:id="@+id/bottom_navigation_main"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
