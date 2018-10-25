@@ -38,7 +38,7 @@
     <ViewFlipper
 
         android:id="@+id/loginViewFlipper"
-        android:flipInterval="3000"
+        android:flipInterval="2000"
         android:inAnimation="@android:anim/slide_in_left"
         android:outAnimation="@android:anim/slide_out_right"
         android:layout_below="@id/imgAnim"

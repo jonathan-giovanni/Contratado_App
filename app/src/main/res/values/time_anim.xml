@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="path1">2000</integer>
+    <integer name="path2">4000</integer>
+    <integer name="path3">6000</integer>
+
+
+</resources>

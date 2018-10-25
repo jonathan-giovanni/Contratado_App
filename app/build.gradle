@@ -9,7 +9,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        
+
     }
     buildTypes {
         release {
@@ -44,6 +44,8 @@ dependencies {
     implementation 'com.android.support:support-vector-drawable:28.0.0'
     implementation 'com.android.support:support-v4:28.0.0'
     implementation 'com.android.support:support-v13:28.0.0'
+    //libreria para animacion vectorial
+    implementation 'com.github.alexjlockwood:kyrie:0.1.3'
 
 
 }
